@@ -4,6 +4,12 @@ document.querySelector(".video__button").addEventListener("click", function() {
   videoContainer.innerHTML = `<iframe class="video--play" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>`;
 });
 
+document.querySelectorAll('.product__icon').forEach(icon => {
+  icon.addEventListener('click', () => {
+    icon.classList.toggle('active');
+  });
+});
+
 document.querySelectorAll(".product__button, .product-card__button").forEach(button => {
   button.addEventListener("click", () => {
     document.body.insertAdjacentHTML("beforeend", `

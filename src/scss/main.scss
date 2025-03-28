@@ -228,7 +228,7 @@ body {
     transition: filter 0.2s;
 
     &:hover {
-      filter: brightness(0.6);
+      filter: brightness(0);
     }
   }
 
@@ -266,7 +266,7 @@ body {
   &__tags {
     display: flex;
     flex-direction: column;
-    gap: 0.56vw; // 8px
+    gap: 0.28vw; // 4px
   }
 
   &__tag {
@@ -371,6 +371,10 @@ body {
     }
 
   }
+}
+
+.product__icon.active {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(91%) saturate(7496%) hue-rotate(358deg) brightness(94%) contrast(120%);
 }
 
 .second-products-column {
