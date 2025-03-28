@@ -11,7 +11,7 @@ document.querySelectorAll(".product__button, .product-card__button").forEach(but
         <div class="modal__content">
         <div class="modal__name">
           <p>Оставьте заявку</p>
-          <button class="modal__close"><img src="./src/assets/close.png"></button>
+          <button class="modal__close"><img src="/assets/close.png"></button>
         </div>
         <div class="modal__inputs"> 
           <input type="text" placeholder="Ваше имя*">
