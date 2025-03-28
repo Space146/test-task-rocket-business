@@ -545,6 +545,9 @@ body {
   &__close {
     border: none;
     background-color: rgba(0, 0, 0, 0);
+    width: 20px;
+    height: 20px;
+    background: url("../assets/close.png") no-repeat;
     cursor: pointer;
   }
 
