@@ -527,12 +527,13 @@ body {
   justify-content: center;
   z-index: 1000;
 
-  input {
+  &__input {
     border-radius: 5px;
     border: 1px solid #444444;
     padding: 10px 12px;
     font-size: 12px;
-    margin-top: 24px;
+    width: 100%;
+    box-sizing: border-box;
 
     &.error {
       border-color: red;
@@ -558,6 +559,8 @@ body {
   &__inputs {
     display: flex;
     flex-direction: column;
+    margin-top: 1.667vw;
+    gap: 0.833vw;
   }
 
   &__content {
@@ -576,12 +579,17 @@ body {
       justify-content: space-between;
       align-items: center;
       font-size: 8px;
+      margin-top: 1.667vw;
+    }
+
+    &__conditions {
+      display: flex;
+      gap: 4px;
     }
 
     &__checkbox {
-      display: flex;
-      align-items: end;
-      gap: 4px;
+      width: 0.556vw;
+      height: 0.556vw;
     }
 
     &__button {
@@ -590,7 +598,6 @@ body {
       padding: 8px 20px;
       border: none;
       cursor: pointer;
-      margin-top: 10px;
       border-radius: 5px;
 
       &:hover {
@@ -598,7 +605,7 @@ body {
       }
     }
 
-    .error-text {
+    &__error-text {
       color: red;
       font-size: 12px;
       text-align: left;

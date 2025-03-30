@@ -20,14 +20,18 @@ document.querySelectorAll(".product__button, .product-card__button").forEach(but
           <button class="modal__close"></button>
         </div>
         <div class="modal__inputs"> 
-          <input type="text" placeholder="Ваше имя*">
-          <p class="error-text">Поле не заполнено</p>
-          <input type="tel" placeholder="Номер телефона*" id="phone">
-          <p class="error-text">Поле не заполнено</p>
+          <div>
+            <input class="modal__input" type="text" placeholder="Ваше имя*">
+            <p class="modal__error-text">Поле не заполнено</p>
+          </div>
+          <div>
+            <input class="modal__input" type="tel" placeholder="Номер телефона*" id="phone">
+            <p class="modal__error-text">Поле не заполнено</p>
+          </div>
         </div>
           <div class="modal__footer">
-            <div class="modal__checkbox">
-              <input type="checkbox">Я соглашаюсь на обработку персональных данных</input>
+            <div class="modal__conditions">
+                <input type="checkbox" class="modal__checkbox">Я соглашаюсь на обработку персональных данных</input>
             </div>
             <button class="modal__button">Отправить</button>
           </div>
