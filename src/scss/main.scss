@@ -455,10 +455,13 @@ body {
   }
 
   &__button {
+    display: flex;
+    justify-content: center;
     background-color: $primary-color;
     font-size: 0.83vw; // 12px
     font-weight: 700;
-    padding: 0.625vw 2.014vw; // 9px 29px
+    padding: 0.625vw 1.5vw; // 9px 29px
+    white-space: nowrap;
     border-radius: 5px;
     border: none;
     color: #fff;
