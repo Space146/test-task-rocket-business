@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build-css": "sass src/scss/main.scss main.css --no-source-map",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.86.1",
     "vite": "^6.2.0"
-  },
-  "dependencies": {
-    "sass": "^1.86.0"
   }
 }

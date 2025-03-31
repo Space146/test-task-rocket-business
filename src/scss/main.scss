@@ -138,7 +138,7 @@ body {
 
   &--peas {
     width: 26.79vw; // 387px
-    background-image: url('../assets/peas.png');
+    background-image: url('/assets/peas.png');
 
     @include respond-to(tablet) {
       width: 35.65vw; // 382px
@@ -155,7 +155,7 @@ body {
     width: 25.22vw; // 387px
     height: 10.72vw; // 154px
     border-radius: 5px;
-    background-image: url('../assets/greatBilberry.png');
+    background-image: url('/assets/greatBilberry.png');
 
     @include respond-to(tablet) {
       width: 35.65vw; // 382px
@@ -171,7 +171,7 @@ body {
     width: 25.22vw; // 387px
     height: 10.72vw; // 154px
     border-radius: 5px;
-    background-image: url('../assets/carrot.png');
+    background-image: url('/assets/carrot.png');
 
     @include respond-to(tablet) {
       width: 35.65vw; // 382px
@@ -184,7 +184,7 @@ body {
   }
 
   &--pop-corn {
-    background: url('../assets/popCorn.png') no-repeat;
+    background: url('/assets/popCorn.png') no-repeat;
     background-size: cover;
     height: 100%;
     border-radius: 5px 5px 0px 0px;
@@ -196,7 +196,7 @@ body {
   }
 
   &--ice-cream {
-    background: url('../assets/iceCream.png') no-repeat;
+    background: url('/assets/iceCream.png') no-repeat;
     background-size: cover;
     height: 100%;
     border-radius: 5px 5px 0px 0px;
@@ -552,7 +552,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     width: 20px;
     height: 20px;
-    background: url("../assets/close.png") no-repeat;
+    background: url("/assets/close.png") no-repeat;
     cursor: pointer;
   }
 
