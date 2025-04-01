@@ -79,6 +79,7 @@ body {
     gap: 2.22vw;
     font-size: 3.88vw;
     padding: 2.22vw 4.44vw;
+    white-space: nowrap;
   }
   .video__icon {
     width: 3.88vw;
